@@ -36,7 +36,7 @@ const Hero = () => {
               through mentorship. Let&apos;s connect to innovate together!
             </div>
             <div className="mt-[2rem] flex flex-col md:flex-row items-center justify-center md:justify-start space-y-6 md:space-y-0 md:space-x-6">
-              <a href="/JyotismitaDas.pdf" download={"Jyotismita-Das"}>
+              <a href="/JyotismitaDas.pdf" download={"JyotismitaDas"}>
                 <button
                   data-aos="zoom-in"
                   data-aos-delay="1200"
