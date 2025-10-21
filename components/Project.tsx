@@ -19,7 +19,7 @@ const Project = () => {
         tech3="MongoDB"
         tech4="Typescript"
         image={travelmap}
-        link="https://travel-app-demo.vercel.app"
+        link="https://react-travel-website.netlify.app/"
         description="Discover the world like never before with Travel
          Map Explorer, your all-in-one travel companion! Whether you’re planning
           a trip or just exploring new places, our app provides an immersive experience 
