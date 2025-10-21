@@ -3,6 +3,7 @@ import { MdxImage as Image } from "../core/Mdx";
 import React, { useEffect, useState } from "react";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
+import Link from "next/link";
 
 interface Props {
   openNav: () => void;
@@ -42,40 +43,41 @@ const Nav = ({ openNav }: Props) => {
         </div>
         <ul className="md:flex hidden items-center space-x-10">
           <li>
-            <a className="nav__link" href="#">
+
+            <Link href="/home" className="nav__link" >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <Link href="/aboutss" className="nav__link" >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <Link href="/services" className="nav__link" >
               Services
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <Link href="/blog" className="nav__link" >
               Blog
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav__link" href="#">
+            <Link href="/contact" className="nav__link" >
               Contact
-            </a>
+            </Link>
           </li>
           <li>
             <a
               className="nav__link"
-              href="https://www.linkedin.com/in/somanath07"
+              href="https://www.linkedin.com/in/jyotismitadas1"
             >
               <Image src={linkedin} alt="linkedin" height="25" width="25" />
             </a>
           </li>
           <li>
-            <a className="nav__link" href="https://github.com/somanath27">
+            <a className="nav__link" href="https://github.com/jubuli">
               <Image src={github} alt="github" height="25" width="25" />
             </a>
           </li>

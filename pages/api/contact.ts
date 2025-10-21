@@ -25,7 +25,7 @@ const sendMail = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         port: 465,
         host: 'smtp.gmail.com',
         auth: {
-            user: 'somanathbarik0727@gmail.com', // Replace with your email
+            user: 'jyotismitadas666@gmail.com', // Replace with your email
             pass: process.env.EMAIL_PASSWORD, // Use your environment variable
         },
         secure: true,
@@ -33,7 +33,7 @@ const sendMail = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
 
     const mailData = {
         from: email, // Sender's email
-        to: 'somanathbarik0727@gmail.com', // Your email to receive the message
+        to: 'jyotismitadas666@gmail.com', // Your email to receive the message
         subject: `${subject}`,
         text: `${message} | Sent from: ${email}`,
         html: `<div>${message}</div><p>Sent from: ${email}</p>`,

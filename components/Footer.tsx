@@ -23,7 +23,7 @@ const Footer = () => {
             impactful solutions and push the boundaries of technology together.
             Feel free to connect with me on{" "}
             <a
-              href="https://www.linkedin.com/in/somanath07"
+              href="https://www.linkedin.com/in/jyotismitadas1"
               className="text-[13px] text-blue-600"
             >
               {" "}
@@ -31,7 +31,7 @@ const Footer = () => {
             </a>{" "}
             or explore my
             <a
-              href="https://github.com/somanath27"
+              href="https://github.com/jubuli"
               className="text-[13px] text-blue-600"
             >
               {" "}
@@ -70,13 +70,13 @@ const Footer = () => {
           <div className="flex items-center mt-[1rem] space-x-2">
             <EnvelopeIcon className="w-[1rem] h-[1rem] text-yellow-300" />
             <p className="text-[17px]  font-normal text-white opacity-75">
-              somanathbarik0727@gmail.com
+              jyotismitadas666@gmail.com
             </p>
           </div>
           <div className="flex items-center mt-[1rem] space-x-2">
             <PhoneIcon className="w-[1rem] h-[1rem] text-yellow-300" />
             <p className="text-[17px]  font-normal text-white opacity-75">
-              +91 7683844093
+              +91 7894690388
             </p>
           </div>
         </div>

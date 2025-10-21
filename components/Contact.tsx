@@ -51,14 +51,14 @@ const Contact = () => {
     <div className="pt-[5rem] pb-[3rem] bg-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto">
         <div>
-          <p className="heading__mini">Get in Touch</p>
+          <div className="heading__mini">Get in Touch</div>
           <h1 className="heading__primary">
             Lets make your <span className="text-yellow-400">Brand</span>{" "}
             brilliant
           </h1>
-          <p className="text-[15px] text-white mt-[1rem] opacity-75">
+          <div className="text-[15px] text-white mt-[1rem] opacity-75">
             <div>
-              <p>
+              <div>
                 I&apos;m excited to collaborate with you on your next project!
                 Whether you&apos;re looking to build a dynamic website, enhance
                 your digital presence, or need expert guidance on full stack
@@ -66,11 +66,11 @@ const Contact = () => {
                 create innovative solutions that will elevate your brand and
                 engage your audience. Feel free to reach out via phone or use
                 the contact form to start the conversation.
-              </p>
+              </div>
             </div>
-          </p>
+          </div>
           <h1 className="mt-[2rem] mb-[2rem] text-[25px] text-yellow-300 underline font-bold font-mono">
-            +91-7683844093
+            +91-7894690388
           </h1>
         </div>
         <div>

@@ -15,11 +15,11 @@ const Hero = () => {
             </h1>
             <div data-aos="fade-left" data-aos-delay="400">
               <h1 className="xl:text-[40px] lg:text-[30px] sm:text-[25px] text-[20px] font-semibold leading-[2.6rem] text-white">
-                Hi, I&apos;m <span className="text-yellow-300">Somanath</span>
+                Hi, I&apos;m <span className="text-yellow-300">Jyotismita Das</span>
               </h1>
               <TypeWrite />
             </div>
-            <p
+            <div
               data-aos="fade-right"
               data-aos-delay="800"
               className="mt-[1.2rem] text-[13px] md:text-[15px] text-[#c4cfde]"
@@ -34,9 +34,9 @@ const Hero = () => {
               solutions. I thrive on learning new technologies and collaborating
               with teams to create impactful applications and empower others
               through mentorship. Let&apos;s connect to innovate together!
-            </p>
+            </div>
             <div className="mt-[2rem] flex flex-col md:flex-row items-center justify-center md:justify-start space-y-6 md:space-y-0 md:space-x-6">
-              <a href="/SomanathBarik.pdf" download={"SomanathBarik"}>
+              <a href="/JyotismitaDas.pdf" download={"Jyotismita-Das"}>
                 <button
                   data-aos="zoom-in"
                   data-aos-delay="1200"

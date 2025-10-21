@@ -19,13 +19,13 @@ const Skills = () => {
             Let&apos;s Explore Popular{" "}
             <span className="text-yellow-300">Skills</span> & Experience
           </h1>
-          <p className="text-[15px] mb-[1.5rem] text-white opacity-70 mt-[1.5rem]">
-            With 3+ years of experience in web and mobile development, I
+          <div className="text-[15px] mb-[1.5rem] text-white opacity-70 mt-[1.5rem]">
+            With 1+ years of experience in web and mobile development, I
             specialize in creating seamless, high-performance applications. My
             expertise spans across modern technologies like React, Node.js, and
             AWS, ensuring scalable and efficient solutions. Dive into my
             skillset to see how I can help bring your projects to life.
-          </p>
+          </div>
           <button
             className="relative flex h-[50px] w-40 items-center 
               justify-center font-semibold overflow-hidden bg-red-500
