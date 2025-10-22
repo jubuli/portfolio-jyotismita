@@ -58,8 +58,8 @@ const Hero = () => {
           >
             <Image
               src={require("../images/profile-pic.png")}
-              width={400}
-              height={500}
+              width={300}
+              height={200}
               alt={""}
                className="rounded-full object-cover   bg-[#1a1a1a]"
             />
