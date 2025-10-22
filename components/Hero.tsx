@@ -54,16 +54,14 @@ const Hero = () => {
             </div>
           </div>
           <div
-            className="hidden md:flex justify-center items-center rounded-full bg-[#0d0d0d] p-4"
-            data-aos="fade-left"
-            data-aos-delay="2000"
+       
           >
             <Image
               src={require("../images/profile-pic.png")}
               width={400}
               height={400}
               alt={""}
-              className="rounded-full object-cover border-4 border-[#0d0d0d]"
+               className="rounded-full object-cover border-2  bg-[#1a1a1a]"
             />
           </div>
         </div>
