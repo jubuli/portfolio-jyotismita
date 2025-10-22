@@ -46,11 +46,11 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
         <li className="flex gap-4">
           <a
             className="nav__link"
-            href="https://www.linkedin.com/in/somanath07"
+            href="https://www.linkedin.com/in/jyotismitadas1"
           >
             <Image src={linkedin} alt="linkedin" height="25" width="25" />
           </a>
-          <a className="nav__link" href="https://github.com/somanath27">
+          <a className="nav__link" href="https://github.com/jubuli">
             <Image src={github} alt="github" height="25" width="25" />
           </a>
         </li>
