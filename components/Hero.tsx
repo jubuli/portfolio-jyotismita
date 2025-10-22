@@ -61,7 +61,7 @@ const Hero = () => {
               width={300}
               height={200}
               alt={""}
-               className="rounded-full object-cover   bg-[#1a1a1a]"
+               className="rounded-full   bg-[#1a1a1a]"
             />
           </div>
         </div>
