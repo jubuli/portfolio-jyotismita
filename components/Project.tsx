@@ -13,17 +13,17 @@ const Project = () => {
         </h1>
       </div>
       <ProjectCard
-        title="Travel Map"
-        tech1="React Native"
-        tech2="NodeJs"
-        tech3="MongoDB"
-        tech4="Typescript"
+        title="URL Shrinker"
+        tech1="React JS"
+        tech2="Tailwind CSS"
+         tech3="Supabase"
+        tech4="Shadcn UI"
         image={travelmap}
-        link="https://react-travel-website.netlify.app/"
-        description="Discover the world like never before with Travel
-         Map Explorer, your all-in-one travel companion! Whether you’re planning
-          a trip or just exploring new places, our app provides an immersive experience 
-          by allowing you to search for any destination and uncover nearby gems effortlessly."
+        link="https://url-shrinker-3zlnt3ujv-jyotismitas-projects.vercel.app/"
+        description="Simplify your links with URL Shrinker — a fast and efficient
+         tool that transforms long, complex URLs into short, shareable ones. Whether 
+         for social media, emails, or campaigns, manage your links effortlessly while maintaining accuracy 
+         and reliability. Experience a clean interface, instant link generation, and seamless redirection for 'a smooth user experience."
       />
       <ProjectCard
         title="CHAT APPLICATION"
@@ -32,7 +32,7 @@ const Project = () => {
         tech3="Socket.io"
         tech4="NodeJs"
         image={chatapp}
-        link="https://chatapplication-frontend.vercel.app/"
+        link="https://talk-a-tive-7fgq.onrender.com/"
         description=" Experience seamless communication with ChitChatter, where real-time
           messaging and dynamic typing indicators keep you in sync with friends
           and family. Enjoy vibrant group chats managed by admins who ensure a
